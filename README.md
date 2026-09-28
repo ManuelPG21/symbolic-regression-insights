@@ -1,5 +1,7 @@
 # Symbolic Regression Insights
 
+> **Personal project.** Built independently in my own time with public data. It is not affiliated with, commissioned by, or derived from any employer, client or academic institution.
+
 **Symbolic regression** searches for a mathematical formula that fits the data, instead of fitting parameters of
 a fixed model. The output is an equation a person can read, check against domain knowledge and put in a
 spreadsheet. This repo applies [PySR](https://github.com/MilesCranmer/PySR) to two public datasets and asks the
@@ -75,4 +77,4 @@ reports/                      JSON results, Pareto front CSV, figures
 
 ## Author
 
-Manuel Alejandro Polo González · [Portfolio](https://manuelpg21.github.io/data-ml-portfolio/) · [LinkedIn](https://www.linkedin.com/in/manuel-alejandro-p-339754118)
+Manuel Alejandro Polo González · [LinkedIn](https://www.linkedin.com/in/manuel-alejandro-p-339754118)
