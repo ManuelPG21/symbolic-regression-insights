@@ -1,0 +1,17 @@
+{
+  "linear_regression": {
+    "r2": 0.6275416055429018,
+    "rmse": 9.796707832398448,
+    "parameters": 9
+  },
+  "lightgbm": {
+    "r2": 0.9270187037341826,
+    "rmse": 4.336576971791491,
+    "parameters": "600 trees"
+  },
+  "symbolic_regression": {
+    "r2": 0.7309046413088673,
+    "rmse": 8.327111433655979,
+    "equation": "sqrt((2.4807227*cement + slag)*log(age_days*(superplasticizer + 2.4807227))) - 25.695505"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "n_planets": 2843,
+  "discovered_equation": "sqrt(a_au**3/m_star)",
+  "median_relative_error_sr": 0.0018830150200750966,
+  "median_relative_error_newton": 0.0018830150200750966,
+  "exponent_a": {
+    "estimate": 1.4978,
+    "ci_low": 1.4959,
+    "ci_high": 1.4996
+  },
+  "exponent_m": {
+    "estimate": -0.4798,
+    "ci_low": -0.4882,
+    "ci_high": -0.4714
+  },
+  "bootstrap_equations": [
+    "sqrt(a_au**3/(m_star + 0.028247476))",
+    "sqrt(a_au**3/m_star)",
+    "sqrt(a_au**3/(m_star + 0.023050392))"
+  ],
+  "pareto_front": [
+    {
+      "complexity": 1,
+      "loss": 3.2882563e-05,
+      "equation": "0.0028558164"
+    },
+    {
+      "complexity": 2,
+      "loss": 2.442107e-05,
+      "equation": "square(a_au)"
+    },
+    {
+      "complexity": 3,
+      "loss": 2.4760652e-06,
+      "equation": "sqrt(cube(a_au))"
+    },
+    {
+      "complexity": 5,
+      "loss": 8.231952e-07,
+      "equation": "sqrt(cube(a_au) / m_star)"
+    },
+    {
+      "complexity": 7,
+      "loss": 7.944504e-07,
+      "equation": "sqrt(cube(a_au) / (m_star / 0.94459933))"
+    },
+    {
+      "complexity": 13,
+      "loss": 7.9445033e-07,
+      "equation": "sqrt(cube((a_au / m_star) * m_star) / ((m_star / 0.971905) / 0.971905))"
+    },
+    {
+      "complexity": 15,
+      "loss": 7.933716e-07,
+      "equation": "sqrt((cube(a_au) / m_star) / sqrt(sqrt(sqrt(sqrt(m_star + m_star) / m_star))))"
+    }
+  ]
+}

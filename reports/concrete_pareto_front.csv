@@ -1,0 +1,25 @@
+complexity,loss,equation,test_r2
+1,284.08267,35.854576,-0.0001494932213688127
+3,237.89932,cement * 0.120427966,0.19612764850167286
+4,216.23853,sqrt(cement * 4.776839),0.23498533775761377
+5,165.52423,sqrt(cement * sqrt(age_days)),0.37255793887879074
+6,151.51447,sqrt(log(square(age_days)) * cement),0.450805758837147
+7,113.5904,superplasticizer + sqrt(log(age_days) * cement),0.6284149337902634
+9,104.68305,superplasticizer + sqrt(log(age_days) * (cement + slag)),0.6340908373504623
+10,97.82232,(sqrt(slag + cement) * log(sqrt(age_days))) + superplasticizer,0.6549056466684904
+11,97.06499,(superplasticizer + sqrt(log(age_days) * (cement + slag))) - 2.7605844,0.6596135495687877
+12,94.58274,(sqrt(superplasticizer * sqrt(slag)) + sqrt(cement)) * sqrt(log(age_days)),0.6046433046747395
+13,93.05879,((sqrt(cement * superplasticizer) * 0.13618469) + sqrt(cement)) * sqrt(log(age_days)),0.6744272215150908
+14,89.43481,(sqrt(slag + cement) * log(sqrt(age_days))) + sqrt(sqrt(cement) * superplasticizer),0.6840078754326546
+15,71.64827,sqrt(log(age_days * (superplasticizer + 2.4807227)) * (slag + (cement * 2.4807227))) - 25.695505,0.7309046413088673
+17,61.00109,sqrt(log(((superplasticizer * age_days) + 11.337368) * age_days) * (slag + (cement * 1.8570305))) - 29.333698,0.74801951066984
+19,60.001198,sqrt(log(age_days * ((superplasticizer * age_days) + 13.915426)) * ((slag + (cement * 1.8855265)) + 47.824028)) - 32.936584,0.75415593817525
+20,59.844593,sqrt(log(((superplasticizer * age_days) + 11.693734) * age_days) * (slag + ((cement + sqrt(age_days)) * 1.8313924))) - 29.93164,0.7534381141136425
+21,59.81113,(sqrt(log(((superplasticizer * age_days) + 11.693734) * age_days) * (slag + (cement * 1.8313924))) + log(sqrt(age_days))) - 29.93164,0.7579568971274173
+22,58.712795,sqrt(((cement * 1.8465117) + slag) * log((((age_days * superplasticizer) + 16.60375) * (age_days - log(age_days))) * 0.4374739)) - 25.174494,0.7597847158609153
+23,58.496353,sqrt((((cement * 1.8068023) + slag) + sqrt(coarse_agg * sqrt(cement))) * log(((superplasticizer * age_days) + 15.372169) * age_days)) - 36.093136,0.7647845514599853
+24,58.432407,-1.054753 + ((sqrt(log(((superplasticizer * age_days) + 11.693734) * age_days) * (slag + (cement * 1.8313924))) - 29.93164) + (-1.1188955 + log(age_days))),0.762262473972831
+25,58.252525,sqrt((((cement * 1.8213958) + slag) + (sqrt(sqrt(cement) * coarse_agg) - superplasticizer)) * log(age_days * ((age_days * superplasticizer) + 15.148324))) - 36.276382,0.7611569848896932
+27,58.22846,sqrt((((sqrt(sqrt(cement) * coarse_agg) - superplasticizer) + ((cement * 1.8213958) + slag)) + 0.576171) * log(age_days * ((age_days * superplasticizer) + 15.148324))) - 36.276382,0.7614514753038556
+28,57.0955,sqrt(((age_days - 34.584034) * superplasticizer) + ((((cement - superplasticizer) * 1.6991218) + slag) * log(age_days * ((age_days * superplasticizer) + log(age_days * cement))))) - 25.35668,0.7643574724897129
+30,56.60016,sqrt(((((cement - superplasticizer) * 1.7111127) + slag) * log(((age_days * superplasticizer) + log((cement * age_days) * age_days)) * age_days)) + ((age_days - superplasticizer) * superplasticizer)) - 27.250607,0.7706300222832426

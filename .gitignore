@@ -1,0 +1,9 @@
+data/*.zip
+data/Concrete_Readme.txt
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+outputs/
+hall_of_fame*
+*.bkup
